@@ -1,0 +1,648 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Aeroport', sans-serif;
+  background-color: #D9D9D9;
+}
+a { color: inherit;
+}
+* {
+  box-sizing: border-box;
+}
+
+/* общие свойства (весь код) */
+.main, .concept, .styles, .special, .specialtwo, .numbers, .numbers2, .banner3, .build, .footer, .stylessmalldiv div {
+  position: relative;
+}
+.main, .concept, .styles, .special, .specialtwo, .specialbotton, .specialtext, .numbers, .numbers2, .build, .footer {
+  width: 1440px;
+}
+.main, .specialbotton, .specialtwo, .specialtext, .numbers2 {
+  overflow: hidden;
+}
+.main p, .concept p, .specialtext p, h1, .specialbotton p, .numbers p, .numbers2 p, .build p  {
+  color: #F84F0A;
+  font-weight: normal;
+}
+.toptext, .concept_text, .specialtop, .specialtwotop, .specialtext, .specialtext_images, .numberstop, .num7-0, .num3-4, .num1-2, section, .pannel div, .pannelimages, .firstrow, .suittext, .passporttext_3, .fontyear, .name, .toptext, .line1, .line2, .line3, .line4, .line5 {
+  display: flex;
+}
+.concept_text, .toptext, .specialtop, .specialtwotop, .specialtext, .numberstop, .num7-0, .num3-4, .num1-2, section, .pannel div, .pannelimages, .firstrow, .suittext, .passporttext_3, .fontyear, .name, .toptext, .line1, .line2, .line3, .line4, .line5 {
+  justify-content: space-between;
+}
+.main img, .main > h1, .specialtwo p, .numbers > img, .numbersplan img, .footer > h1, .numbers h1 {
+  position: absolute;
+}
+.stylessmalldiv div,  .specialtext_images div, .tablo, .sign {
+  background-color: white;
+  border: 3px solid #F84F0A;
+}
+.sticker1, .smallsticker1, .sticker2, .smallsticker2, .sticker3, .smallsticker3   {
+  background-color: white;
+  border: 2px solid #F84F0A;
+}
+h1, .sticker3text2 {
+  font-size: 20px;
+  line-height: 20px;
+}
+h2 {
+  font-size: 20px;
+  line-height: 17.14px;
+  color: #FFFFFF;
+  font-weight: normal;
+}
+
+/* главная */
+.main {
+  height: 820px;
+  padding: 61px 31px 0px 31px;
+}
+.toptext {
+  width: 1378px;
+}
+.main img {
+  margin-top: -40px;
+}
+.main > h1 {
+  left: -416px;
+  right: 209px;
+  top: -649px;
+  transform: rotate(-90deg);
+}
+
+/* концепция */
+.concept {
+  height: 320px;
+}
+.concept_text {
+  padding: 72px 31px 0px 31px;
+}
+.concept p, .specialtext p {
+  font-size: 30px;
+  line-height: 35.5px;
+}
+.concept p {
+  width: 509px;
+}
+
+/* начертания */
+.styles {
+  height: 1713px;
+  padding: 272px 31px 0px 31px;
+}
+.stylesdives {
+  width: 1377.14px;
+  height: 1363px;
+  background: url(../images/2.svg);
+  margin-top: 61px;
+}
+.styles img {
+  margin-top: 61px;
+}
+.stylessmalldiv div {
+  width: 441px;
+  height: 88px;
+}
+.stylessmalldiv {
+  width: 538px;
+  height: 1365px;
+  margin: 0px 0px 0px 838px;
+  padding-top: 447px;
+}
+.styles p {
+  font-size: 55px;
+  line-height: 47px;
+  text-align: center;
+  padding-top: 14px;
+  color: #F84F0A;
+}
+.light, .lightitalic {
+  font-weight: 300;
+}
+.light {
+  font-style: normal;
+  margin-left: 96px
+}
+.lightitalic {
+  font-style: italic;
+  transform: rotate(-13.11deg);
+  margin: 25px 0px 0px 5px;
+  z-index: 1;
+}
+.regular, .italic {
+  font-weight: 400;
+  z-index: 2;
+}
+.regular {
+  font-style: normal;
+  margin: 15px 0px 0px 97px;
+}
+.italic {
+  font-style: italic;
+  transform: rotate(9.65deg);
+  margin: 12px 0px 0px 41px;
+}
+.medium, .mediumitalic {
+  font-weight: 500;
+}
+.medium {
+  font-style: normal;
+  margin: 21px 0px 0px 95px;
+  z-index: 3;
+}
+.mediumitalic {
+  font-style: italic;
+  transform: rotate(-13.57deg);
+  margin: 18px 0px 0px 91px;
+  z-index: 4;
+}
+.bold, .bolditalic {
+  font-weight: 700;
+}
+.bold {
+  font-style: normal;
+  margin: 25px 0px 0px 95px;
+  z-index: 5;
+}
+.bolditalic {
+  font-style: italic;
+  margin: 5px 0px 0px 25px;
+  transform: rotate(9.64deg);
+  z-index: 6;
+}
+.mono {
+  font-weight: 900;
+  font-style: normal;
+  margin: 3px 0px 0px 95px;
+  z-index: 7;
+}
+
+/* особенности 1 */
+.special {
+  height: 989px;
+  padding: 193px 31px 0px 31px;
+}
+.specialbotton {
+  height: 717px;
+  margin: 46px 0px 0px -31px;
+  background-color: white;
+  border: solid #F84F0A;
+  border-width: 3px 0px;
+}
+.specialbotton img {
+  margin: -3px 0px 0px 639px;
+}
+.specialbotton p {
+  font-size: 490px;
+  margin: -595px 0px 0px -187px;
+  letter-spacing: -50px;
+  font-weight: 900;
+}
+.specialtop {
+  align-items: center;
+}
+.specialtop img {
+  margin-right: 246px;
+}
+
+/* особенности 2 */
+.specialtwotop {
+  align-items: center;
+  padding-right: 31px;
+}
+.specialtwo {
+  height: 1343px;
+  padding-top: 190px;
+}
+.line1 div, .line2 div, .line3 div, .line4 div, .block3 {
+  background-color: white;
+  border: 3px solid #F84F0A;
+  background-size: cover;
+}
+.line1 div, .block4, .line3 div, .block8 {
+  width: 206px;
+  height: 117px;
+}
+.line1{
+  width: 484px;
+  align-items: center;
+  margin: 111px 0px 0px 31px;
+}
+.block1 {
+  background-image: url(../images/4_1.svg);
+}
+.block2 {
+  background-image: url(../images/4_2.svg);
+}
+.line2, .line4 {
+  align-items: start;
+}
+.line2{
+  width: 543px;
+  margin: 33px 50px 0px 310px;
+}
+.block4 {
+  background-image: url(../images/4_1.svg);
+}
+.block5 {
+  width: 209px;
+  height: 234px;
+  background-image: url(../images/4_3.svg);
+}
+.line2 h1, .line4 h1 {
+  padding-top: 42px;
+}
+.block3 {
+  width: 258px;
+  height: 234px;
+  margin: -238px 0px 0px -22px;
+}
+.line3 {
+  width: 484px;
+  align-items: center;
+  margin: 33px 0px 0px 31px;
+}
+.block6 {
+  background-image: url(../images/4_4.svg);
+}
+.block7 {
+  background-image: url(../images/4_5.svg);
+}
+.line4 {
+  width: 543px;
+  margin: 33px 50px 0px 310px;
+}
+.block8 {
+  background-image: url(../images/4_4.svg);
+}
+.block9 {
+  width: 209px;
+  height: 234px;
+  background-image: url(../images/4_6.svg);
+}
+.line5 {
+  width: 1440px;
+  height: 1011px;
+  align-items: flex-end;
+  margin-top: -800px;
+}
+
+.specialtwo > img {
+  position: absolute;
+  top: 1148px;
+  right: 31px;
+}
+
+/* текст после */
+.specialtext {
+  height: 245px;
+  position: relative;
+  padding-left: 31px;
+  margin-top: 77px;
+  align-items: flex-end;
+}
+.specialtext p {
+  width: 805px;
+}
+.specialtext_images div {
+  width: 66px;
+  height: 66px;
+  margin-left: 78px;
+}
+.specialtext_images {
+  width: 493px;
+  justify-content: flex-start;
+  margin-right: -63px;
+}
+
+/* цифры и символы 1*/
+.numbers {
+  height: 1067px;
+  padding: 158px 31px 0px 31px;
+}
+.numbersplan {
+  width: 1382px;
+  height: 768px;
+  background-image: url(../images/5_1.svg);
+  margin-top: 65px;
+}
+.numbers > img {
+  top: 165px;
+  left: 483px;
+}
+.numbers p {
+  font-size: 65px;
+  line-height: 56px;
+}
+.num7-0 {
+  width: 717px;
+  margin-left: 649px;
+  padding-top: 8px;
+}
+.num3-4 {
+  width: 389px;
+  margin-left: 127px;
+  padding-top: 205px;
+}
+.num1-2 {
+  flex-direction: column;
+  width: 56px;
+  margin-left: 13px;
+  padding-top: 44px;
+}
+.num2 {
+  padding-top: 148px;
+}
+.num6 {
+  margin: -9px 0px 0px 943px;
+}
+.num5 {
+  margin: 26px 0px 0px 729px;
+}
+.img5_2 {
+  top: 524px;
+  right: 47px;
+}
+.img5_3 {
+  top: 358px;
+  left: 478px;
+}
+.img5_4 {
+  top: 861px;
+  right: 47px;
+}
+.img5_6 {
+  top: 878px;
+  left: 130px;
+}
+.measure1 {
+  top: 169px;
+  right: 462px;
+}
+.measure2 {
+  top: 932px;
+  left: 321px;
+  transform: rotate(-180deg);
+}
+
+/* цифры и символы 2 */
+.numbers2 {
+  height: 885px;
+  margin-top: 85px;
+  padding: 0px 31px;
+  background-image: url(../images/6.svg);
+  background-color: white;
+  border: solid #F84F0A;
+  border-width: 3px 0px;
+}
+section, .pannel div, .pannelimages {
+  align-items: center;
+}
+/* 33 этаж */
+.tablo {
+  width: 264px;
+  height: 109px;
+  margin: 49px 31px 0px 1112px;
+  background-image: url(../images/6_7.svg);
+  z-index: 2;
+}
+.tablo  p {
+  padding-left: 70px;
+  font-size: 110px;
+  margin-top: -3px;
+}
+/* кнопки лифта */
+.lift {
+  width: 544px;
+  height: 753px;
+  background-color: #F84F0A;
+  margin: -95px 0px 0px 30px;
+  background-image: url(../images/6_1.svg);
+}
+section {
+  padding: 24px 5px 0px 186px;
+  width: 375px;
+  flex-direction: row;
+}
+.pannel div {
+  flex-direction: column;
+  z-index: 1;
+}
+.pannelimages {
+  width: 544px;
+  padding: 29px 21px 0px 19px;
+}
+.pannel p {
+  font-size: 62.35px;
+  line-height: 113px;
+}
+/* сдается машиноместо */
+.sticker1 {
+  width: 182px;
+  height: 312px;
+  z-index: 5;
+  transform: rotate(-25.25deg);
+  margin: -478px 0px 0px 725px;
+  font-size: 26.49px;
+}
+.sticker1 p {
+  transform: rotate(90deg);
+}
+.smallsticker1 {
+  width: 21px;
+  height: 60px;
+  transform: rotate(62deg);
+  z-index: 4;
+  margin: -33px 0px 0px 79px;
+}
+.sticker1text1 {
+  margin: 115px 0px 0px 15px;
+  width: 292px;
+}
+.sticker1text2 {
+  margin: -83px 0px 0px -75px;
+  width: 189px;
+}
+.img6_10 {
+  margin: 136px 0px 0px 8px;
+  transform: rotate(45deg);
+}
+.img6_11 {
+  margin: 31px 0px -18px -75px;
+  transform: rotate(45deg);
+}
+/* соседи, не шумите */
+.sticker2 {
+  width: 182px;
+  height: 312px;
+  z-index: 1;
+  transform: rotate(11.77deg);
+  margin: -576px 0px 0px 908px;
+}
+.sticker2text1 {
+  font-size: 31.09px;
+  line-height: 26.8px;
+  transform: rotate(-90deg);
+  margin: 101px 0px 0px -122px;
+}
+.sticker2text2 {
+  font-size: 12.7px;
+  line-height: 10.94px;
+  margin: -63px 0px 0px 112px;
+}
+.sticker2 img {
+  margin: 90px 0px 0px 129px;
+  transform: rotate(-10deg);
+}
+.smallsticker2 {
+  width: 21px;
+  height: 60px;
+  transform: rotate(36deg);
+  z-index: 4;
+  margin: -35px 0px 0px 87px;
+}
+/* от кого сбежал хомяк */
+.sticker3 {
+  width: 468px;
+  height: 170px;
+  margin: 272px 0px 0px 908px;
+}
+.sticker3text1 {
+  font-size: 63.48px;
+  margin: -24px 0px 0px 8px;
+  font-weight:700;
+}
+.sticker3text2 {
+  margin: 9px 0px 0px 14px;
+}
+.sticker3image1 {
+margin: 16px 0px 0px 14px;
+}
+.sticker3image2 {
+  margin: -82px -3px 0px 8px;
+  z-index: 4;
+  float: right;
+}
+.smallsticker3 {
+  width: 21px;
+  height: 60px;
+  transform: rotate(-6deg);
+  z-index: 4;
+  margin: -37px 0px 0px 179px;
+}
+
+/* на стройке */
+.build {
+  height: 2108px;
+  padding: 126px 31px 0px 31px;
+}
+.firstrow {
+  align-items: start;
+  width: 1378px;
+  margin-top: 133px;
+}
+/* знак */
+.sign {
+  width: 496px;
+  height: 484px;
+  background-image: url(../images/99.svg);
+  padding: 13px 22px;
+}
+.sign p {
+  font-size: 60.66px;
+}
+.signtext_2 {
+  padding: 203px 0px 0px 239px;
+  text-align: right;
+}
+/* жилет */
+.suit {
+  width: 469.5px;
+  height: 484px;
+  background-image: url(../images/7_2.svg);
+  background-size: contain;
+  margin: 0px 133px 0px 0px;
+}
+.suittext {
+  width: 470px;
+  margin-top: 410px;
+  padding: 0px 18px 0px 18px;
+}
+.suittext_1 {
+  font-size: 58.15px;
+}
+.suittext_2 {
+  font-size: 12.78px;
+  transform: rotate(-90deg);
+}
+/* звездочка */
+.star {
+  margin-top: 36px;
+}
+/* пасспорт */
+.passport {
+  transform: rotate(-15deg);
+  background-color: #FFFFFF;
+  width: 1295px;
+  height: 526px;
+  border-radius: 24.38px;
+  border: 3px solid #F84F0A;
+  margin: -271px 0px 0px 41px;
+}
+.passporttext_1 {
+  font-size: 60.24px;
+  padding: 34px 0px 0px 354px;
+}
+.passporttext_2 {
+  font-size: 28.24px;
+  line-height: 38.6px;
+  padding: 84px 0px 0px 31px;
+}
+.passporttext_3 {
+  font-size: 28.24px;
+  line-height: 38.6px;
+  margin-top: -55px;
+  padding: 0px 36px 0px 31px;
+  width: 1295px;
+  align-items: flex-end;
+}
+/* сройкепка */
+.cap{
+  margin-top: -42px;
+  float: right;
+}
+/* треугольник */
+.triangle {
+margin: 37px 0px 0px 599px;
+}
+/* подвал */
+.footer {
+  height: 618px;
+  margin-top: -451px;
+  background-image: url(../images/8_1.svg);
+  padding: 0px 31px 0px 31px;
+}
+.footer > img{
+  margin-top: -1px;
+}
+.fontyear {
+  top: 524px;
+  align-items: center;
+  height: 27px;
+  width: 1378px;
+  margin-top: 299px;
+}
+.name {
+  top: 559px;
+  align-items: center;
+  height: 27px;
+  width: 1377px;
+  margin-top: 10px;
+}
+.fontyear h1, .passporttext_2 span, .passporttext_3 span, .bold, .bolditalic, .sign p, .passporttext_1 {
+  font-weight: 700;
+}
+.footer > h1 {
+  top: 209px;
+  left: 173px;
+}

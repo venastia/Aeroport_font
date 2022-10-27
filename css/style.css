@@ -1,0 +1,65 @@
+@import 'reset.css';
+@import 'content.css';
+@font-face {
+  font-family: "Aeroport";
+  src: local("Aeroport"),
+    url("Aeroport.ttf") format("ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+  font-family: "Aeroport";
+  src: local("Aeroport-Italic"),
+    url("Aeroport-Italic.ttf") format("ttf");
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+  font-family: "Aeroport";
+  src: local("Aeroport-Bold"),
+    url("Aeroport-Bold.ttf") format("ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+  font-family: "Aeroport";
+  src: local("Aeroport-BoldItalic"),
+    url("Aeroport-BoldItalic.ttf") format("ttf");
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+  font-family: "Aeroport";
+  src: local("Aeroport-Light"),
+    url("Aeroport-Light.ttf") format("ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+  font-family: "Aeroport";
+  src: local("Aeroport-lightItalic"),
+    url("Aeroport-lightItalic.ttf") format("ttf");
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+  font-family: "Aeroport";
+  src: local("Aeroport-Medium"),
+    url("Aeroport-Medium.ttf") format("ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+  font-family: "Aeroport";
+  src: local("Aeroport-MediumItalic"),
+    url("Aeroport-MediumItalic.ttf") format("ttf");
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+  font-family: "Aeroport";
+  src: local("AeroportMono"),
+    url("AeroportMono.ttf") format("ttf");
+    font-weight: 900;
+    font-style: normal;
+}
