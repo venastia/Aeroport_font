@@ -29,7 +29,7 @@ a { color: inherit;
 .concept_text, .toptext, .specialtop, .specialtwotop, .specialtext, .numberstop, .num7-0, .num3-4, .num1-2, section, .pannel div, .pannelimages, .firstrow, .suittext, .passporttext_3, .fontyear, .name, .toptext, .line1, .line2, .line3, .line4, .line5 {
   justify-content: space-between;
 }
-.main img, .main > h1, .specialtwo p, .numbers > img, .numbersplan img, .footer > h1, .numbers h1 {
+.main img, .main > h1, .specialtwo p, .numbers > img, .numbersplan img, .footer > h1, .numbers h1, .img6_13 {
   position: absolute;
 }
 .stylessmalldiv div,  .specialtext_images div, .tablo, .sign {
@@ -86,8 +86,8 @@ h2 {
 
 /* начертания */
 .styles {
-  height: 1583px;
-  padding: 141px 31px 0px 31px;
+  height: 1531px;
+  padding: 90px 31px 0px 31px;
 }
 .stylesdives {
   width: 1377.14px;
@@ -408,7 +408,7 @@ section, .pannel div, .pannelimages {
 .tablo  p {
   padding-left: 70px;
   font-size: 110px;
-  margin-top: -3px;
+  margin-top: -5px;
 }
 /* кнопки лифта */
 .lift {
@@ -553,6 +553,10 @@ margin: 16px 0px 0px 14px;
 .signtext_2 {
   padding: 203px 0px 0px 239px;
   text-align: right;
+}
+.img6_13 {
+  top: 718px;
+  left: 124px;
 }
 /* жилет */
 .suit {
