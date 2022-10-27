@@ -22,7 +22,6 @@ a { color: inherit;
 }
 .main p, .concept p, .specialtext p, h1, .specialbotton p, .numbers p, .numbers2 p, .build p  {
   color: #F84F0A;
-  font-weight: normal;
 }
 .toptext, .concept_text, .specialtop, .specialtwotop, .specialtext, .specialtext_images, .numberstop, .num7-0, .num3-4, .num1-2, section, .pannel div, .pannelimages, .firstrow, .suittext, .passporttext_3, .fontyear, .name, .toptext, .line1, .line2, .line3, .line4, .line5 {
   display: flex;
@@ -87,8 +86,8 @@ h2 {
 
 /* начертания */
 .styles {
-  height: 1713px;
-  padding: 272px 31px 0px 31px;
+  height: 1583px;
+  padding: 141px 31px 0px 31px;
 }
 .stylesdives {
   width: 1377.14px;
@@ -592,6 +591,7 @@ margin: 16px 0px 0px 14px;
 .passporttext_1 {
   font-size: 60.24px;
   padding: 34px 0px 0px 354px;
+  font-weight: 700;
 }
 .passporttext_2 {
   font-size: 28.24px;
